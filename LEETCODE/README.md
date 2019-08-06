@@ -10,3 +10,8 @@ Given nums = [2, 7, 11, 15], target = 9,
 
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
+
+### Solution :
+ Key Store The diffrence of Target Element And *ith* Itrative Element
+ And Search The Key in Remaining Array After The *ith indices* If Find the key Then Return The *ith* and *indices* of Key Value
+ 

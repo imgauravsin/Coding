@@ -15,3 +15,6 @@ return [0, 1].
  Key Store The diffrence of Target Element And ***ith*** Itrative Element
  And Search The Key in Remaining Array After The ***ith indices*** If Find the key Then Return The ***ith*** and ***indices*** of Key Value
  
+ **Time Complexity : O(n^2)** 
+ 
+ 

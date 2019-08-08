@@ -2,9 +2,9 @@
 ### Problem Statement
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
-- [x]  **Symbol**       **Value**
-- [ ]    I             1
-- [ ]    V             5
+- [x]  **Symbol**  ||     **Value**
+- [ ]    I         ||      1
+- [ ]    V         ||    5
 - [ ]    X             10
 - [ ]    L             50
 - [ ]    C             100

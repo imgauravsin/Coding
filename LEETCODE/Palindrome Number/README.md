@@ -33,6 +33,6 @@ For the purpose of this problem, assume that your function returns 0 when the re
  
  ### Code Link:
  
- [**Click Here**](https://github.com/imgauravsin/Coding/blob/master/LEETCODE/Reverse%20Integer/reverse.cpp)
+ [**Click Here**](https://github.com/imgauravsin/Coding/blob/master/LEETCODE/Palindrome%20Number/Palindrome%20Number.cpp)
  
  

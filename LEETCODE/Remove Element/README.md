@@ -1,46 +1,47 @@
 # Coding
 ### Problem Statement
-Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Given an array nums and a value val, remove all instances of that value in-place and return the new length.
 
-- [x]  Symbol       Value
-- []    I             1
-- []    V             5
-- []    X             10
-- []    L             50
-- []    C             100
-- []    D             500
-- []    M             1000
-For example, two is written as II in Roman numeral, just two one's added together. Twelve is written as, XII, which is simply X + II. The number twenty seven is written as XXVII, which is XX + V + II.
+Do not allocate extra space for another array, you must do this by **modifying the input array in-place** with O(1) extra memory.
 
-Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. 
-The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:
-* I can be placed before V (5) and X (10) to make 4 and 9. 
-* X can be placed before L (50) and C (100) to make 40 and 90. 
-* C can be placed before D (500) and M (1000) to make 400 and 900.
-
-Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.
+The order of elements can be changed. It doesn't matter what you leave beyond the new length.
 
 ### Example 1:
 
-* Input: 'III'
-* Output: 4
+Given nums = [3,2,2,3], val = 3,
+
+Your function should return length = 2, with the first two elements of nums being 2.
+
+It doesn't matter what you leave beyond the returned length.
 
 ### Example 2:
 
-* Input: 'IV'
-* Output: 5
+Given nums = [0,1,2,2,3,0,4,2], val = 2,
+
+Your function should return length = 5, with the first five elements of nums containing 0, 1, 3, 0, and 4.
+
+Note that the order of those five elements can be arbitrary.
+
+It doesn't matter what values are set beyond the returned length.
  
-### Example 3:
+### Clarification:
 
-* Input: 'LVII'
-* Output: 58
-* Explanation: L = 50, V= 5, III = 3.
+Confused why the returned value is an integer but your answer is an array?
 
-### Example 3:
+Note that the input array is passed in by reference, which means modification to the input array will be known to the caller as well.
 
-* Input: "MCMXCIV"
-* Output: 1994
-* Explanation: M = 1000, CM = 900, XC = 90 and IV = 4
+Internally you can think of this:
+
+```
+// nums is passed in by reference. (i.e., without making a copy)
+int len = removeElement(nums, val);
+
+// any modification to nums in your function would be known by the caller.
+// using the length returned by your function, it prints the first len elements.
+for (int i = 0; i < len; i++) {
+    print(nums[i]);
+}
+```
  
 
 ### Solution :

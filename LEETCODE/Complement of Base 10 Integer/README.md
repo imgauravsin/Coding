@@ -12,25 +12,25 @@ For a given number N in base-10, return the complement of it's binary representa
 ### Example 1:
 
 ```
-* Input: 5
-* Output: 2
-* Explanation: 5 is "101" in binary, with complement "010" in binary, which is 2 in base-10.
+- Input: 5
+- Output: 2
+- Explanation: 5 is "101" in binary, with complement "010" in binary, which is 2 in base-10.
 ```
 
 ### Example 2:
 
 ```
-* Input: 7
-* Output: 0
-* Explanation: 7 is "111" in binary, with complement "000" in binary, which is 0 in base-10.
+- Input: 7
+- Output: 0
+- Explanation: 7 is "111" in binary, with complement "000" in binary, which is 0 in base-10.
 ```
  
  ### Example 2:
 
 ```
-* Input: 10
-* Output: 5
-* Explanation: 10 is "1010" in binary, with complement "0101" in binary, which is 5 in base-10.
+- Input: 10
+- Output: 5
+- Explanation: 10 is "1010" in binary, with complement "0101" in binary, which is 5 in base-10.
 ```
 
 ### Note:
@@ -46,6 +46,6 @@ For a given number N in base-10, return the complement of it's binary representa
  
  ### Code Link:
  
- [**Click Here**](https://github.com/imgauravsin/Coding/blob/master/LEETCODE/Palindrome%20Number/Palindrome%20Number.cpp)
+ [**Click Here**](https://github.com/imgauravsin/Coding/blob/master/LEETCODE/Complement%20of%20Base%2010%20Integer/Complement%20of%20Base%2010%20Integer.cpp)
  
  

@@ -9,9 +9,11 @@ public:
             x=x/10;
         
         }
-        if (rev==n && n>=0)
-        {return true;}
-        else
-        { return false;}
+        if (rev==n && n>=0){
+            return true;
+        }
+        else{ 
+            return false;
+        }
     }
 };

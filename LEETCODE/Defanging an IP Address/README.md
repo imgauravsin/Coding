@@ -34,6 +34,6 @@ A defanged IP address replaces every period `"."` with `"[.]"`.
  
  ### Code Link:
  
- [**Click Here**](https://github.com/imgauravsin/Coding/blob/master/LEETCODE/Palindrome%20Number/Palindrome%20Number.cpp)
+ [**Click Here**](./Defanging%20an%20IP%20Address.cpp)
  
  

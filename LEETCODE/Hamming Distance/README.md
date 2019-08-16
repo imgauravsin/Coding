@@ -32,6 +32,6 @@ Give
  
  ### Code Link:
  
- [**Click Here**](https://github.com/imgauravsin/Coding/blob/master/LEETCODE/Palindrome%20Number/Palindrome%20Number.cpp)
+ [**Click Here**](./Hamming%20Distance.cpp)
  
  

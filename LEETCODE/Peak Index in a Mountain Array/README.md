@@ -35,6 +35,6 @@ Given an array that is definitely a mountain, return any i such that `A[0] < A[1
  
  ### Code Link:
  
- [**Click Here**](https://github.com/imgauravsin/Coding/blob/master/LEETCODE/Palindrome%20Number/Palindrome%20Number.cpp)
+ [**Click Here**](./peak%20Index%20In%20Mountain%20Array.cpp)
  
  

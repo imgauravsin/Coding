@@ -46,6 +46,6 @@ For a given number N in base-10, return the complement of it's binary representa
  
  ### Code Link:
  
- [**Click Here**](https://github.com/imgauravsin/Coding/blob/master/LEETCODE/Complement%20of%20Base%2010%20Integer/Complement%20of%20Base%2010%20Integer.cpp)
+ [**Click Here**](./Complement%20of%20Base%2010%20Integer.cpp)
  
  
